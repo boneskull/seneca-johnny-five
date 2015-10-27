@@ -1,0 +1,33 @@
+{
+  "name": "seneca-johnny-five",
+  "description": "Seneca plugin: Johnny Five",
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "seneca",
+    "plugin"
+  ],
+  "dependencies": {
+    "bluebird": "^2.10.2",
+    "errorist": "^0.1.4",
+    "is-async-function": "^1.1.0",
+    "johnny-five": "^0.9.1",
+    "joi": "^6.9.1",
+    "lodash": "^3.10.1",
+    "stampit": "^2.1.1"
+  },
+  "devDependencies": {
+    "board-io": "^3.0.4",
+    "chai": "^3.4.0",
+    "chai-as-promised": "^5.1.0",
+    "eslint": "^1.7.3",
+    "mocha": "^2.3.3",
+    "seneca": "0.x.x",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0"
+  }
+}
